@@ -135,7 +135,7 @@ function App() {
             <div className="profile-image-container">
               <div className="profile-image">
                 <img 
-                  src="/profile-headshot.jpg" 
+                  src={`${import.meta.env.BASE_URL}profile-headshot.jpg`}
                   alt="Md Rakibul Hasan" 
                   className="profile-photo"
                   style={{ boxShadow: 'none', border: 'none', background: 'none' }}
@@ -173,8 +173,8 @@ function App() {
                 <svg width="22" height="22" viewBox="0 0 48 48" fill="currentColor" style={{ display: 'block' }}>
                   <path d="M24 4C14.1 4 6 12.1 6 22c0 5.2 2.2 9.9 5.7 13.2l-5.7 5.7 2.8 2.8 5.7-5.7C18.1 41.8 21 43 24 43s5.9-1.2 8.5-3.1l5.7 5.7 2.8-2.8-5.7-5.7C39.8 31.9 42 27.2 42 22c0-9.9-8.1-18-18-18zm0 35c-9.4 0-17-7.6-17-17S14.6 5 24 5s17 7.6 17 17-7.6 17-17 17zm0-30c-7.2 0-13 5.8-13 13s5.8 13 13 13 13-5.8 13-13-5.8-13-13-13zm0 24c-6.1 0-11-4.9-11-11s4.9-11 11-11 11 4.9 11 11-4.9 11-11 11z"/>
                 </svg>
-              </a>
-            </div>
+        </a>
+      </div>
           </div>
         </div>
 
@@ -214,9 +214,13 @@ function App() {
 
               <h3><strong>Research Interests:</strong></h3> Machine Learning & Deep Learning, Data Science & Analytics, Database Optimization, Big Data Processing, and Scalable Algorithms.
             
-            <a href="/Resume_Hasan_Intern.pdf" download className="download-cv-btn">
-              📄 Download CV
-            </a>
+              <a
+                href={`${import.meta.env.BASE_URL}Resume_Hasan_Intern.pdf`}
+                download
+                className="download-cv-btn"
+              >
+                📄 Download CV
+              </a>
           </section>
 
 
