@@ -6,7 +6,7 @@ export const profile = {
   github: "https://github.com/ronypy",
   linkedin: "https://www.linkedin.com/in/ronypy/",
   scholar: "https://scholar.google.com/citations?user=tKwidqYAAAAJ&hl=en",
-  resume: "resumes/Rakibul-Hasan-Resume.pdf",
+  resume: "resumes/Resume_Rakibul_Hasan.pdf",
   workAuth: "U.S. Permanent Resident — authorized to work without sponsorship",
   headline:
     "I build systems that learn to make good decisions under uncertainty.",

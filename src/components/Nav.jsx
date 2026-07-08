@@ -7,6 +7,7 @@ const LINKS = [
   { id: "projects", label: "Projects" },
   { id: "experience", label: "Experience" },
   { id: "teaching", label: "Teaching" },
+  { id: "credentials", label: "Education" },
 ];
 
 export default function Nav() {
